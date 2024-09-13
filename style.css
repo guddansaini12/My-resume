@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(253, 254, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full {
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100px;
+    background-color: rgb(241, 228, 209);
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+
+.left {
+    position: initial;
+    background-color: #d4ede8;
+    padding: 25px;
+    /* color: #f5f6f8; */
+}
+
+.right {
+    position: initial;
+    background-color: #ffffff;
+    padding: 25px;
+}
+
+.image, .contact, .skills, .language, .hobbies, .summary, .experience, .education, .certificate, .training, .activities {
+    margin-bottom: 35px;
+}
+
+.contact h2 {
+    margin-bottom: 8px;
+}
+
+.language h2 {
+    margin-bottom: 8px;
+}
+
+.language ul {
+    padding-left: 8px;
+}
+
+.hobbies h2 {
+    margin-bottom: 8px;
+}
+
+.hobbies ul {
+    padding-left: 8px;
+}
+
+.title {
+    margin-top: 10px;
+}
+
+hr {
+    margin-top: 17px;
+    margin-bottom: 10px;
+}
+
+.summary p {
+    margin-top: 5px;
+    line-height: 1.2;
+}
+
+.skills h2 {
+    margin-bottom: 8px;
+}
+
+.skills ul {
+    padding-left: 8px;
+    line-height: 1.5;
+}
+
+.training h4 {
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+
+.training ul {
+    padding-left: 8px;
+    line-height: 1.5;
+}
+
+.activities h4 {
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+
+.activities ul {
+    padding-left: 8px;
+    line-height: 1.5;
+}
+
+.experience h2 {
+    margin-bottom: 20px;
+}
+
+.experience ol {
+    padding-left: 8px;
+    line-height: 1.5;
+}
+
+.certificate h2 {
+    margin-bottom: 20px;
+}
+
+.certificate ul {
+    padding-left: 8px;
+    line-height: 1.5;
+}
+
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+th {
+    background-color: rgb(228 240 245);
+}
+th, td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+}
+td {
+    background-color: rgb(237 238 242);
+}
+
+.skills {
+    font-family: sans-serif;
+    font-weight: 530;
+}
+
+.training h2 {
+    text-transform: uppercase;
+}
+
+
+
+/* media queries */
+@media (max-width: 991px)
+{
+    .full {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) 
+{
+    .full {
+        width: 100%;
+    }
+}
+
+@media (max-width: 450px)
+{
+    .full {
+        width: 100%;
+    }
+}
